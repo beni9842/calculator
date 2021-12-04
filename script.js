@@ -33,8 +33,8 @@ evalBtn.addEventListener('click', () => {
     displayNum = '' + operate(storedNum, Number(displayNum), op);
     updateDisplay();
     storedNum = Number(displayNum);
+    op = '';
     decimal = false;
-    displayNum = '';
 });
 
 const clrBtn = document.querySelector('#clear');
